@@ -1,0 +1,13 @@
+[
+  {
+    "outputFileName": "wwwroot/js/bundle.fontawesome.js",
+    "inputFiles": [
+      "wwwroot/js/fontawesome/all.js",
+      "wwwroot/js/fontawesome/brands.js",
+      "wwwroot/js/fontawesome/fontawesome.js",
+      "wwwroot/js/fontawesome/regular.js",
+      "wwwroot/js/fontawesome/solid.js",
+      "wwwroot/js/fontawesome/v4-shims.js"
+    ]
+  }
+]
