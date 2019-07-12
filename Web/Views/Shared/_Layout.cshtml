@@ -17,6 +17,7 @@
     </environment>
     <link rel="stylesheet" href="~/css/site.css" />
     <script defer src="~/js/fontawesome/all.js"></script>
+    <script defer src="~/js/site.js"></script>
     <link href="~/css/search_box.css" rel="stylesheet" />
     <link href="~/css/button.css" rel="stylesheet" />
 </head>
@@ -40,8 +41,8 @@
                     </ul>
                 </div>
                 <div class="search-box">
-                    <input class="search-txt" type="text" placeholder="Type to search" />
-                    <a class="search-btn" href="#"><i class="fas fa-search"></i></a>
+                    <input id="search-field" class="search-txt" type="text" placeholder="Type to search" />
+                    <a class="search-btn" href="@Url.Action("Search","Parse")"><i class="fas fa-search"></i></a>
                 </div>
             </div>
         </nav>

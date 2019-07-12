@@ -5,7 +5,8 @@ using System.IO;
 using System.Diagnostics;
 
 using Google.Apis.Discovery;
-using Google.Apis.Services;
+
+using System.Threading.Tasks;
 
 namespace BLL.Services
 {
@@ -40,9 +41,26 @@ namespace BLL.Services
             }
         }
 
-        public string Search(string searchString)
+        public async Task<string> Search(string searchString)
         {
+            //var service = new DiscoveryService(new BaseClientService.Initializer
+            //{
+            //    ApplicationName = "Discovery Sample",
+            //    ApiKey = "[YOUR_API_KEY_HERE]",
+            //});
 
+            //// Run the request.
+            //Console.WriteLine("Executing a list request...");
+            //var result = await service.Apis.List().ExecuteAsync();
+
+            //// Display the results.
+            //if (result.Items != null)
+            //{
+            //    foreach (DirectoryList.ItemsData api in result.Items)
+            //    {
+            //        Console.WriteLine(api.Id + " - " + api.Title);
+            //    }
+            //}
             return "";
         }
     }

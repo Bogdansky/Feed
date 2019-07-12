@@ -29,5 +29,15 @@ namespace Web.Views.ParseResult
                 Content = result
             });
         }
+
+        public async Task<ActionResult> Search(string pattern)
+        {
+            var result = await parseService.Search(pattern);
+            return View("Index", new ParseViewModel
+            {
+                Content = result,
+                Header = $"Result of searching by word \"{pattern}\""
+            });
+        }
     }
 }
