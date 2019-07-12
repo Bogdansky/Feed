@@ -4,13 +4,16 @@ using System.Text;
 using System.IO;
 using System.Diagnostics;
 
+using Google.Apis.Discovery;
+using Google.Apis.Services;
+
 namespace BLL.Services
 {
     public class ParseService
     {
-        const string pathNode = "../Node.js";
+        const string pathNode = "../BLL/Node.js";
 
-        public string Execute(string url = "")
+        public string Execute(string url = null)
         {
             try
             {
@@ -35,6 +38,12 @@ namespace BLL.Services
             {
                 return string.Empty;
             }
+        }
+
+        public string Search(string searchString)
+        {
+
+            return "";
         }
     }
 }

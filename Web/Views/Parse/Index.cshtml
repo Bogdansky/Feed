@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+@model Web.ViewModels.ParseViewModel
+
+<div class="container">
+    <div id="first" class="main">
+        <h2>@Model.Header</h2>
+        <div>
+            @Html.Raw(Model.Content)
+        </div>
+    </div>
+</div>
