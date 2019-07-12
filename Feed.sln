@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{05A46685-0DEA-4CA2-94B3-9819F3180761}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{05A46685-0DEA-4CA2-94B3-9819F3180761}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{460D35B0-5A2B-4A2D-AA39-2CC9D5DFD0E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{460D35B0-5A2B-4A2D-AA39-2CC9D5DFD0E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceUnitTest", "ServiceUnitTest\ServiceUnitTest.csproj", "{DC699916-3BDF-4690-A762-97FAA73122FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{460D35B0-5A2B-4A2D-AA39-2CC9D5DFD0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{460D35B0-5A2B-4A2D-AA39-2CC9D5DFD0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{460D35B0-5A2B-4A2D-AA39-2CC9D5DFD0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC699916-3BDF-4690-A762-97FAA73122FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC699916-3BDF-4690-A762-97FAA73122FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC699916-3BDF-4690-A762-97FAA73122FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC699916-3BDF-4690-A762-97FAA73122FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
