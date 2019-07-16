@@ -21,5 +21,13 @@ namespace Web.Utils
 
             return sex.ToString();
         }   
+
+        public static Enum GetMember(int value, Type enumType)
+        {
+            var members = Enum.GetValues(enumType);
+            int check;
+            Enum.TryParse(enumType, value.ToString(), out check);
+            return null;
+        }
     }
 }

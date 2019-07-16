@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{460D35B0-5A2B-4A2D-AA39-2CC9D5DFD0E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceUnitTest", "ServiceUnitTest\ServiceUnitTest.csproj", "{DC699916-3BDF-4690-A762-97FAA73122FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceUnitTest", "ServiceUnitTest\ServiceUnitTest.csproj", "{DC699916-3BDF-4690-A762-97FAA73122FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{4F1C381B-E4C1-482A-A247-2F405D7B7E8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DC699916-3BDF-4690-A762-97FAA73122FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC699916-3BDF-4690-A762-97FAA73122FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC699916-3BDF-4690-A762-97FAA73122FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1C381B-E4C1-482A-A247-2F405D7B7E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1C381B-E4C1-482A-A247-2F405D7B7E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1C381B-E4C1-482A-A247-2F405D7B7E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1C381B-E4C1-482A-A247-2F405D7B7E8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

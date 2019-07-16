@@ -9,6 +9,6 @@ namespace Web.Models
     {
         public string Message { get; set; }
         public string Code { get; set; }
-        public Helpers.Enums.SeverityEnum severity {get;set;}
+        public Helpers.Enums.SeverityEnum Severity { get; set; }
     }
 }

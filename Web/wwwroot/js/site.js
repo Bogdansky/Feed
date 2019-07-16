@@ -9,4 +9,8 @@ $(() => {
         link = link.split('?')[0];
         $("#search-field").next().attr("href", `${link}?pattern=${textBoxValue}`);
     })
+
+    $(".search-txt").focus(() => {
+
+    })
 })

@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    string url = Url.Action("Loading");
 }
 
 <div class="text-center">
@@ -11,9 +12,24 @@
 <button class="spbtn btn3">hover</button>
 <button class="spbtn btn4">hover</button>*@
 <div class="modal fade">
-    <div id="loadModal" class="modal-dialog-centered"></div>
+    <div id="modal_area" class="modal-dialog-centered"></div>
 </div>
-
+<button class="btn" id="load_modal">Show modal window</button>
 <script>
+    $(() => {
+        $.ajaxSetup({ cache: false });
+        $("#load_modal").click((e) => {
+            e.preventDefault();
+            $.get('@url', (data) => {
+                $("#modal_area").html(data);
+                $("#modal_area").parent().modal("show");
 
+                setTimeout(closeModal, 3000);
+            })
+        });
+    })
+
+    function closeModal() {
+        $("#close_modal_button").click();
+    }
 </script>
